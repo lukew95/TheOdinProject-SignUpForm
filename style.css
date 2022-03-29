@@ -55,6 +55,7 @@ table {
 
 .body-container{
     display: flex;
+    background-color: #fafafa;
 }
 
 .side-image{
@@ -95,4 +96,77 @@ table {
 
 .main-section{
     flex: 4;
+    font-family: sans-serif;
+    color: #3b444b;
+}
+
+.header{
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 300px;
+    padding-bottom: 50px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.form-area{
+    background-color: #ffffff;
+    padding: 50px 0 50px 50px;
+    -webkit-box-shadow: 0 8px 6px -6px #e9e9e9;
+    -moz-box-shadow: 0 8px 6px -6px #e9e9e9;
+         box-shadow: 0 8px 6px -6px #e9e9e9;
+}
+
+.form-area h2{
+    font-size: 30px;
+}
+
+.form-area label, .form-area input{
+    display: block;
+}
+
+.form-area table{
+    margin-top: 50px;
+}
+
+.form-area td{  
+    padding: 20px 120px 20px 0;
+    margin-left: 50px;
+}
+
+.form-area label{
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.form-area input{
+    border-radius: 5px;
+    border: 2px solid #e9e9e9; 
+    width: 300px;
+    height: 35px;
+}
+
+.form-area input:focus{
+    border: 2px solid #85acff;
+}
+
+.footer{
+    padding: 40px 0 75px 50px;
+}
+
+.footer button, .footer a{
+    display: block;
+}
+
+
+.footer button{
+    width: 300px;
+    height: 60px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-radius: 12px;
+    border: 2px solid #47d3cc;
+    background-color: #47d3cc;
+    color: #ffffff;
+    font-weight: 600;
 }
