@@ -53,6 +53,13 @@ table {
     font-family: sans-serif;
 }
 
+.body-container{
+    display: flex;
+}
+
+.side-image{
+    flex: 2;
+}
 
 .side-image, 
 .side-image img{
@@ -84,4 +91,8 @@ table {
     color: #e9e9e9;
     font-family: sans-serif;
     font-weight: 600;
+}
+
+.main-section{
+    flex: 4;
 }
